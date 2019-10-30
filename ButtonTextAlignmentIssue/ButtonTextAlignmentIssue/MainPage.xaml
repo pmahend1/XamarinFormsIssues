@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ButtonTextAlignmentIssue.MainPage">
+    <Grid RowSpacing="0" HorizontalOptions="Fill">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" ColumnSpacing="5" HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="myColorsButton" Text="Primarial" BackgroundColor="{Binding PrimarialBackgroundColor}" FontFamily="{StaticResource RobotoMedium}" BorderColor="{Binding PrimarialBorderColor}" HorizontalOptions="FillAndExpand" BorderWidth="2" CornerRadius="22" FontSize="Medium" TextColor="{Binding PrimarialTextColor}" Command="{Binding PrimarialCommand}" />
+            <Button Grid.Column="1" x:Name="ordereredColumnsButton" Text="Secondary Button" BackgroundColor="{Binding SecondaryBackgroundColor}" FontFamily="{StaticResource RobotoMedium}" CornerRadius="22" BorderColor="{Binding SecondaryBorderColor}" BorderWidth="2" FontSize="Medium" TextColor="{Binding SecondaryTextColor}" Command="{Binding Secondary_ButtonCommand}" HorizontalOptions="FillAndExpand" />
+        </Grid>
+        <ContentView Grid.Row="1" Content="{Binding ContentView}" />
+    </Grid>
+</ContentPage>
