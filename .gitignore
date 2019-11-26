@@ -1,4 +1,13 @@
 .DS_Store
 .vs
+*.user
+*/bin
+*/obj
 */bin/*
 */obj/*
+*.dll
+*g.cs
+*.dll
+*g.cs
+*.jar
+*.java
