@@ -11,3 +11,10 @@
 *g.cs
 *.jar
 *.java
+*bin/*
+*obj*
+/UISwipeBackIssue/UISwipeBackIssue.iOS/bin/iPhoneSimulator/Debug
+/UISwipeBackIssue/UISwipeBackIssue.Android/obj
+/UISwipeBackIssue/UISwipeBackIssue.Android/bin/Debug
+/UISwipeBackIssue/UISwipeBackIssue/bin/*
+/UISwipeBackIssue/UISwipeBackIssue/obj
