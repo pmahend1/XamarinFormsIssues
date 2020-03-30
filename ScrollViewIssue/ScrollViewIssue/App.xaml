@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ScrollViewIssue.App">
+    <Application.Resources>
+  
+        <ControlTemplate x:Key="TopTemplate">
+            <Grid BackgroundColor="Blue" HeightRequest="60" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="CenterAndExpand"
+                             IsVisible="{TemplateBinding BindingContext.IsBackButtonVisible, Mode=TwoWay}"
+                             Grid.Column="0">
+                    <Label Text="&lt;"
+                           FontSize="Large"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           VerticalOptions="FillAndExpand"
+                           VerticalTextAlignment="Center"
+                           Margin="20,0,0,0" /> 
+                    <Label TextColor="White"
+                           FontSize="Medium"
+                           HorizontalOptions="StartAndExpand"
+                           HorizontalTextAlignment="Center"
+                           VerticalOptions="FillAndExpand"
+                           VerticalTextAlignment="Center"
+                           Text="BACK" />
+                </StackLayout>
+                <Image Source="https://raw.githubusercontent.com/xamarin/Xamarin.Forms/master/banner.png"
+                       VerticalOptions="Center"
+                       Aspect="AspectFit"
+                       HorizontalOptions="Center"
+                       Grid.Column="1" />
+            </Grid>
+        </ControlTemplate>
+    </Application.Resources>
+</Application>

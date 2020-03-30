@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LongText" xml:space="preserve">
+    <value>Social distancing can’t last forever. Here’s what should come next.
+
+Scientists are explaining the moonshot effort needed to end social distancing and this pandemic. Will leaders listen?
+By Brian Resnick@B_resnickbrian@vox.com Mar 26, 2020, 8:30am EDT
+Share this story
+
+    Share this on Facebook (opens in new window)
+    Share this on Twitter (opens in new window)
+
+    Share All sharing options
+
+The failures of the United States’ initial response to the Covid-19 pandemic are already well established: We were too slow to recognize the threat of the disease and too slow to get diagnostic testing in place, and were ill prepared for the strain on our health care system.
+
+But now, largely, we’re doing something right: social distancing.
+
+The outright lockdowns of movement in some cities, as well as the less severe policies in place across the country, can slow the spread of the pandemic. And per at least one poll, people are, by and large, complying.
+A graphic showing an increasing majority of Americans say they are practicing various social distancing measures.
+Christina Animashaun/Vox
+
+Frustratingly, though, we must be patient in our isolation. The impacts of social distancing lag in case-count data and may take a few weeks to show up. Right now, there are infections out there, in the public, that were seeded long before these orders came into effect. It can take 10 days or more between when a person is infected and when they show symptoms — during which they can spread the virus to others.
+
+The social distancing measures in place also aren’t airtight, so these infections will still seed some others. And just the cases that are already out there are expected to overrun hospitals.
+
+It’s important to recognize it could be months until it's safe to lift social distancing restrictions. And the timeline might vary depending on where you live and when the virus strikes the hardest.
+
+We need social distancing because it slows the spread of the disease to manageable levels. When that happens, we can move to a more sustainable mitigation strategy. But we’ll need to be careful. Just look at Hong Kong: After a month of strong control measures, including social distancing, cases are on the rise again, perhaps fueled by residents returning from abroad.
+
+Related
+Why we’re not overreacting to the coronavirus, in one chart
+
+Know this: Ceaseless social distancing is not the only way to end this outbreak. And President Trump paints a false choice between saving lives and saving the economy. We can find a balance. It’s just that the current orders of social distancing would need to be replaced by a comprehensive, extremely ambitious plan.
+
+Epidemiologists have been telling me about what it would take to end social distancing safely while fighting the spread of Covid-19. It isn’t easy. It will require an immense amount of leadership, coordination, and more sacrifice. It would take a sort of moonshot-level effort. But the tactics they outline aren’t unfamiliar. They’re textbook epidemiology — they just need to be scaled up to a level never really seen before.
+
+“We really do need a Manhattan Project effort to get this stuff in place in really a two- or three-month period,” Jeremy Konyndyk, a senior policy fellow at the Center for Global Development, says.
+
+We need social distancing across the country, and we need to keep it in place for some weeks, if not months, to buy time. If social distancing works, is enacted broadly, and is kept up, the number of new infections could decrease. It would give us a pause in the action, to potentially move on from social distancing to a more targeted pandemic strategy. Right now is the time to get plans ready so when that pause comes, we can make things right.
+Why we can’t open the country back up soon: It’s too dangerous
+
+It’s understandable that some — maybe most — people want life to go back to normal already. Trump is anxious too, saying he hopes to reopen the country by Easter, April 12.
+
+But that could be dangerously too soon. “It’s a nightmare scenario for epidemiologists and health care workers,” says Tara Smith, who studies emerging infectious diseases at Kent State University. “Imagine the mixing of populations that would happen at Easter if given the ‘all clear’ — people who may be carrying the virus without knowing it, hugging their loved ones, spending hours in close contact, and then everyone going back home afterward.”
+
+As when a doctor asks you to consult them before ending a medication, we cannot end social distancing abruptly and without expert advice. (Think about when you’re on a course of antibiotic medication — you have to complete the whole regimen of pills even when you start feeling better. Social distancing is a little like that.)
+
+And like vaccines, the distancing isn’t just for you (although data shows that all age groups and people without preexisting risk factors can fall critically ill from the disease). It crucially protects vulnerable people from the disease. Without it, they become vulnerable again.
+
+“If we all just went right back to how things were before, transmission would start again with the same intensity,” says Caitlin Rivers, a professor at Johns Hopkins Center for Health Security. “It’s hard to experience so many restrictions, and so many hardships, and not feel like it’s not working. We need to recognize that we are doing the right things. You just have to be a little bit patient.”</value>
+  </data>
+</root>
